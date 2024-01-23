@@ -1,0 +1,134 @@
+:root{
+    --main-color:rgba(214, 46, 51 , 0.6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 30px;
+    font-size: 25px;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    &:hover{
+        color: red;
+    }
+}
+
+.home{
+background:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../images/events-heavenly-header.jpg);
+background-size: cover;
+background-position: center center;
+height: 100vh;
+color: white;
+}
+.caption{
+    transition: all 0.5s ease;
+   & h1{
+    font-size: 60px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    }
+}
+.side{
+    top:0px;
+    left: 0px;
+    z-index: 999;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 100%;
+    transform: translateX(-250px);
+    transition: all 0.5s ease;
+
+}
+.no{
+    display: none;
+}
+
+.openBtn{
+    left: 2px;
+    top: 60%;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 30px;
+
+}
+
+.close{
+  
+  font-size: 25px;
+  width: fit-content;
+  padding:0px 0px;
+  cursor: pointer;
+  /* top: 5px;
+  left: 120px; */
+  transition: all 0.5s ease;
+  &:hover{
+    color: red;
+  }
+}
+#singer-card{
+
+    & .header {
+        background-color: var(--main-color);
+}
+
+& .body{
+    background-color: #ccc;
+}}
+
+.firstSinger::before{
+    content: "=";
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+    font-size: 18px;
+}
+
+#daysCounter{
+    /* height: 300px; */
+    background:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contact{
+    height: 400px;
+}
+.box-inner {
+    border: solid 1px white;
+    height: 150px;
+    width: 100%;
+}
+h5{
+    font-weight: 900;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #999;
+    transition: all ease 0.5s;
+    color: #999;
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+.header{
+    cursor: pointer;
+}
+
